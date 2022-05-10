@@ -8,13 +8,7 @@
 #define WALL -1
 #define EXIT -2
 
-/***********************************************************/
-/***********************************************************/
-/******* ADD THE REQUIRED FUNCTIONS BELOW THIS POINT *******/
-/***********************************************************/
-/***********************************************************/
-
-// Your function definitions should go here...
+// Functions
 void InitialiseRoad(int road[NUM_ROWS][NUM_COLS], char side, int pos)
 {
     //intialise variables
@@ -405,11 +399,6 @@ int MoveCar(int road[NUM_ROWS][NUM_COLS], int r0, int c0, int r1, int c1)
     }
 }
 
-/***********************************************************/
-/***********************************************************/
-/********* DO NOT MODIFY ANY CODE BELOW THIS POINT *********/
-/***********************************************************/
-/***********************************************************/
 
 /* Function to obtain capital letter as input */
 char GetMove(void)
